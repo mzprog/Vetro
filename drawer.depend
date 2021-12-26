@@ -1,0 +1,850 @@
+# depslib dependency file v1.0
+1561892521 source:c:\users\mz37\documents\drawer\dr-vars.c
+	"DR-defs.h"
+	<SDL.h>
+
+1560339372 c:\users\mz37\documents\drawer\dr-defs.h
+
+1580383922 source:c:\users\mz37\documents\drawer\main.c
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<stdio.h>
+	"DR-vars.h"
+	"DR-defs.h"
+	"DR-event.h"
+	"DR-viewport.h"
+	"mainViewport.h"
+	"core/sys.h"
+	"core/color.h"
+	"file/file.h"
+	"tools/tools.h"
+	"tools/toolbar.h"
+	"file/drawable.h"
+	"navigator/navigator.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\close_code.h
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\mz37\documents\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1561892521 c:\users\mz37\documents\drawer\dr-vars.h
+	<SDL.h>
+
+1563269397 source:c:\users\mz37\documents\drawer\dr-event.c
+	<SDL.h>
+	"DR-event.h"
+	"DR-vars.h"
+	"DR-defs.h"
+	"mainViewport.h"
+
+1560339826 c:\users\mz37\documents\drawer\dr-event.h
+	<SDL.h>
+
+1563315338 source:c:\users\mz37\documents\drawer\dr-viewport.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<SDL.h>
+	"DR-viewport.h"
+	"DR-vars.h"
+	"core/sys.h"
+
+1562172931 c:\users\mz37\documents\drawer\dr-viewport.h
+	<SDL.h>
+	<stdio.h>
+
+1560948244 c:\users\mz37\documents\drawer\mzsdl.h
+	<SDL.h>
+
+1560948244 source:c:\users\mz37\documents\drawer\mzsdl.c
+	"mzsdl.h"
+	<SDL.h>
+	<SDL_ttf.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"core/sys.h"
+
+1547322281 c:\users\mz37\documents\sdl2_ttf-2.0.15\i686-w64-mingw32\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1563351894 source:c:\users\mz37\documents\drawer\mainviewport.c
+	<stdlib.h>
+	<string.h>
+	"mainViewport.h"
+	"DR-viewport.h"
+	"core/sys.h"
+	"menubar/menu.h"
+	"menubar/submenu.h"
+	"DR-Viewport_event.h"
+	"menubar/menuevent.h"
+	"file/file.h"
+	"tools/tools.h"
+	"tools/toolbar.h"
+	"tools/toolOption.h"
+	"navigator/navigator.h"
+	"navigator/navigator-event.h"
+
+1561141497 c:\users\mz37\documents\drawer\mainviewport.h
+
+1575970942 source:c:\users\mz37\documents\drawer\core\sys.c
+	"sys.h"
+	<SDL.h>
+
+1575929036 c:\users\mz37\documents\drawer\core\sys.h
+	<SDL.h>
+
+1562087746 source:c:\users\mz37\documents\drawer\menubar\menu.c
+	"menu.h"
+	<stdlib.h>
+	<string.h>
+	<SDL.h>
+	<SDL_ttf.h>
+	"submenu.h"
+	"../core/sys.h"
+	"../DR-viewport.h"
+
+1562087723 c:\users\mz37\documents\drawer\menubar\menu.h
+	<stdlib.h>
+	<SDL.h>
+	"../mzsdl.h"
+	"../DR-viewport.h"
+
+1540997982 c:\users\mz37\documents\sdl2_image-2.0.4\i686-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1561130047 c:\users\mz37\documents\drawer\menubar\submenu.h
+	"menu.h"
+	<SDL.h>
+
+1561645642 source:c:\users\mz37\documents\drawer\menubar\submenu.c
+	"submenu.h"
+	<string.h>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	"../core/sys.h"
+	"../DR-viewport.h"
+
+1560985580 source:c:\users\mz37\documents\drawer\dr-viewport_event.c
+	"DR-Viewport_event.h"
+	"DR-Viewport.h"
+
+1560963725 c:\users\mz37\documents\drawer\dr-viewport_event.h
+	"DR-viewport.h"
+
+1561059513 c:\users\mz37\documents\drawer\menubar\menuevent.h
+	<SDL.h>
+	"../DR-viewport.h"
+	"menu.h"
+
+1562100481 source:c:\users\mz37\documents\drawer\menubar\menuevent.c
+	"menuevent.h"
+	<SDL.h>
+	<string.h>
+	"menu.h"
+	"submenu.h"
+	"menuevent.h"
+	"../DR-vars.h"
+	"../file/selection.h"
+	"../file/selectionTasks.h"
+
+1564261500 source:c:\users\mz37\documents\drawer\file\layer.c
+	"layer.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	<SDL.h>
+	"../core/sys.h"
+
+1575108919 source:c:\users\mz37\documents\drawer\file\file.c
+	"file.h"
+	<stdlib.h>
+	<string.h>
+	<SDL.h>
+	"../DR-viewport.h"
+	"../core/sys.h"
+	"../mzsdl.h"
+	"layer.h"
+
+1563701155 c:\users\mz37\documents\drawer\file\file.h
+	<SDL.h>
+
+1564261513 c:\users\mz37\documents\drawer\file\layer.h
+	"file.h"
+
+1566995373 source:c:\users\mz37\documents\drawer\tools\tools.c
+	"tools.h"
+	<SDL.h>
+	<SDL_image.h>
+	<string.h>
+	<stdlib.h>
+	"hand.h"
+	"line.h"
+	"rectSelect.h"
+	"zoom.h"
+	"brush.h"
+	"../DR-viewport.h"
+	"../DR-vars.h"
+	"../file/file.h"
+
+1562079825 c:\users\mz37\documents\drawer\tools\tools.h
+	<SDL.h>
+
+1563040653 source:c:\users\mz37\documents\drawer\tools\hand.c
+	"hand.h"
+	<stdlib.h>
+	<SDL.h>
+	<SDL_image.h>
+	"../file/file.h"
+	"../DR-vars.h"
+	"../DR-viewport.h"
+	"tools.h"
+
+1561326249 c:\users\mz37\documents\drawer\tools\hand.h
+	"tools.h"
+
+1565364162 source:c:\users\mz37\documents\drawer\tools\line.c
+	"line.h"
+	<SDL.h>
+	<stdlib.h>
+	<string.h>
+	"tools.h"
+	"line-plot.h"
+	"toolOption.h"
+	"../DR-viewport.h"
+	"../DR-vars.h"
+	"../file/file.h"
+	"../file/layer.h"
+	"../file/drawable.h"
+	"../core/sys.h"
+	"../core/color.h"
+
+1565088922 c:\users\mz37\documents\drawer\tools\line.h
+	"tools.h"
+
+1561287478 c:\users\mz37\documents\drawer\tools\toolbar.h
+	"tools.h"
+
+1562769794 source:c:\users\mz37\documents\drawer\tools\toolbar.c
+	"toolbar.h"
+	<SDL.h>
+	<string.h>
+	"tools.h"
+	"../DR-viewport.h"
+	"../core/sys.h"
+
+1564261935 source:c:\users\mz37\documents\drawer\file\drawable.c
+	"drawable.h"
+	<SDL.h>
+	<stdlib.h>
+	"file.h"
+	"selection.h"
+	"../core/sys.h"
+	<stdio.h>
+
+1561834118 c:\users\mz37\documents\drawer\file\drawable.h
+	<SDL.h>
+
+1561834171 c:\users\mz37\documents\drawer\file\selection.h
+
+1562860083 source:c:\users\mz37\documents\drawer\file\selection.c
+	"selection.h"
+	<SDL.h>
+	<stdlib.h>
+	"selectionTools.h"
+	"../core/sys.h"
+	"file.h"
+	"../DR-vars.h"
+	"drawable.h"
+	"../tools/tools.h"
+
+1564911957 source:c:\users\mz37\documents\drawer\core\color.c
+	"color.h"
+	<stdlib.h>
+	<math.h>
+	"sys.h"
+
+1564739417 c:\users\mz37\documents\drawer\core\color.h
+	<SDL.h>
+
+1563888347 source:c:\users\mz37\documents\drawer\tools\line-plot.c
+	"line-plot.h"
+	<SDL.h>
+	"../core/sys.h"
+	"../core/color.h"
+	"../file/file.h"
+
+1563465449 c:\users\mz37\documents\drawer\tools\line-plot.h
+	<SDL.h>
+
+1562859971 source:c:\users\mz37\documents\drawer\tools\rectselect.c
+	"rectSelect.h"
+	"tools.h"
+	<SDL.h>
+	<SDL_image.h>
+	"../DR-vars.h"
+	"../DR-viewport.h"
+	"../core/sys.h"
+	"../file/file.h"
+	"../file/selection.h"
+
+1561798530 c:\users\mz37\documents\drawer\tools\rectselect.h
+	"tools.h"
+
+1561733914 source:c:\users\mz37\documents\drawer\file\selectiontools.c
+	"selectionTools.h"
+	"file.h"
+
+1561736295 c:\users\mz37\documents\drawer\file\selectiontools.h
+	"selection.h"
+
+1562100471 source:c:\users\mz37\documents\drawer\file\selectiontasks.c
+	"selectionTasks.h"
+	"file.h"
+	"drawable.h"
+	"selection.h"
+
+1562100471 c:\users\mz37\documents\drawer\file\selectiontasks.h
+
+1564936298 source:c:\users\mz37\documents\drawer\tools\zoom.c
+	"zoom.h"
+	<SDL.h>
+	<SDL_image.h>
+	"../DR-vars.h"
+	"toolOption.h"
+	"../file/file.h"
+	"../DR-viewport.h"
+
+1564936298 c:\users\mz37\documents\drawer\tools\zoom.h
+	"tools.h"
+
+1575458613 source:c:\users\mz37\documents\drawer\tools\tooloption.c
+	"toolOption.h"
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"../DR-vars.h"
+	"../core/sys.h"
+	"../DR-viewport.h"
+
+1565363763 c:\users\mz37\documents\drawer\tools\tooloption.h
+	<SDL.h>
+	"../core/gui-kit/scrollvaluebox.h"
+
+1580383032 source:c:\users\mz37\documents\drawer\tools\brush.c
+	"brush.h"
+	<SDL.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	"../core/sys.h"
+	"../core/color.h"
+	"tools.h"
+	"../file/drawable.h"
+	"../file/file.h"
+	"../DR-viewport.h"
+	"line-plot.h"
+	"../DR-vars.h"
+	"toolOption.h"
+	"../navigator/layers-dock.h"
+
+1575457345 c:\users\mz37\documents\drawer\tools\brush.h
+	<SDL.h>
+	"tools.h"
+
+1575991034 source:c:\users\mz37\documents\drawer\navigator\navigator.c
+	"navigator.h"
+	<stdlib.h>
+	<string.h>
+	<SDL.h>
+	<SDL_ttf.h>
+	"../core/sys.h"
+	"../DR-viewport.h"
+	"layers-dock.h"
+	"color-picker.h"
+
+1575991128 c:\users\mz37\documents\drawer\navigator\navigator.h
+	<SDL.h>
+	"../DR-viewport.h"
+
+1564260228 source:c:\users\mz37\documents\drawer\navigator\navigator-event.c
+	"navigator-event.h"
+	"navigator.h"
+	"../DR-viewport.h"
+	"../core/sys.h"
+
+1563352543 c:\users\mz37\documents\drawer\navigator\navigator-event.h
+	"navigator.h"
+
+1563383847 source:c:\users\mz37\documents\drawer\core\gui-kit.c
+
+1575991091 source:c:\users\mz37\documents\drawer\navigator\layers-dock.c
+	"layers-dock.h"
+	"../core/sys.h"
+	"../core/gui-kit.h"
+	"navigator.h"
+	"layer-list.h"
+	"tool-layer-option.h"
+
+1563442153 c:\users\mz37\documents\drawer\core\gui-kit.h
+	"gui-kit/scrollvaluebox.h"
+	"gui-kit/selectoption.h"
+
+1575989987 c:\users\mz37\documents\drawer\navigator\layers-dock.h
+	"navigator.h"
+
+1563524562 source:c:\users\mz37\documents\drawer\core\gui-kit\selectoption.c
+	"selectoption.h"
+	<stdlib.h>
+	<string.h>
+	<SDL.h>
+	<SDL_ttf.h>
+	"../sys.h"
+	"../../tools/line.h"
+	"gui-tools.h"
+
+1565351182 c:\users\mz37\documents\drawer\core\gui-kit\scrollvaluebox.h
+	<SDL.h>
+	"../../navigator/navigator.h"
+
+1565362268 source:c:\users\mz37\documents\drawer\core\gui-kit\scrollvaluebox.c
+	"scrollvaluebox.h"
+	<SDL.h>
+	<SDL_ttf.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"../sys.h"
+	"../../navigator/navigator.h"
+	"../../DR-vars.h"
+	"../../DR-viewport.h"
+
+1563445175 c:\users\mz37\documents\drawer\core\gui-kit\selectoption.h
+	<SDL.h>
+
+1564609200 source:c:\users\mz37\documents\drawer\core\gui-kit\gui-tools.c
+	"gui-tools.h"
+	<SDL.h>
+	<stdlib.h>
+	"../sys.h"
+	"../../tools/line-plot.h"
+
+1563479257 c:\users\mz37\documents\drawer\core\gui-kit\gui-tools.h
+	<SDL.h>
+
+1575989930 source:c:\users\mz37\documents\drawer\navigator\layer-list.c
+	"layer-list.h"
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<stdlib.h>
+	"../core/sys.h"
+	"../file/file.h"
+
+1575971432 c:\users\mz37\documents\drawer\navigator\layer-list.h
+	<SDL.h>
+	"../file/file.h"
+	"navigator.h"
+
+1565362304 source:c:\users\mz37\documents\drawer\navigator\color-picker.c
+	"color-picker.h"
+	<SDL.h>
+	"../core/sys.h"
+	"../core/color.h"
+	"../core/gui-kit.h"
+	"color-wheel.h"
+	"color-wheel-event.h"
+
+1564746265 c:\users\mz37\documents\drawer\navigator\color-picker.h
+	"navigator.h"
+
+1564261935 source:c:\users\mz37\documents\drawer\navigator\tool-layer-option.c
+	"tool-layer-option.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdlib.h>
+	"../core/sys.h"
+	"../file/layer.h"
+
+1564261607 c:\users\mz37\documents\drawer\navigator\tool-layer-option.h
+	<SDL.h>
+
+1564738573 c:\users\mz37\documents\drawer\navigator\color-wheel.h
+	<SDL.h>
+
+1564910849 source:c:\users\mz37\documents\drawer\navigator\color-wheel.c
+	"color-wheel.h"
+	<SDL.h>
+	<stdlib.h>
+	<math.h>
+	"../core/sys.h"
+	"../core/color.h"
+	"../core/gui-kit/gui-tools.h"
+	"../tools/line-plot.h"
+
+1574545219 source:c:\users\mz37\documents\drawer\navigator\color-wheel-event.c
+	"color-wheel-event.h"
+	<math.h>
+	<SDL.h>
+	<string.h>
+	"color-picker.h"
+	"color-wheel.h"
+	"../core/color.h"
+	"../DR-vars.h"
+	"../DR-viewport.h"
+	"../tools/brush.h"
+
+1564909639 c:\users\mz37\documents\drawer\navigator\color-wheel-event.h
+	"navigator.h"
+	"color-wheel.h"
+
+1580383627 source:c:\users\mz37\documents\drawer\icon.rc
+

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Vetro" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/drawer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/vetro" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="../SDL2-devel-2.0.9-mingw/SDL2-2.0.9/i686-w64-mingw32/include/SDL2" />
+			<Add directory="../SDL2_ttf-2.0.15/i686-w64-mingw32/include/SDL2" />
+			<Add directory="../SDL2_image-2.0.4/i686-w64-mingw32/include/SDL2" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32 -lSDL2main -lSDL2  -lSDL2_image -lSDL2_ttf" />
+			<Add directory="../SDL2-devel-2.0.9-mingw/SDL2-2.0.9/i686-w64-mingw32/lib" />
+			<Add directory="../SDL2_ttf-2.0.15/i686-w64-mingw32/lib" />
+			<Add directory="../SDL2_image-2.0.4/i686-w64-mingw32/lib" />
+		</Linker>
+		<Unit filename="DR-defs.h" />
+		<Unit filename="DR-event.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="DR-event.h" />
+		<Unit filename="DR-vars.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="DR-vars.h" />
+		<Unit filename="DR-viewport.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="DR-viewport.h" />
+		<Unit filename="DR-viewport_event.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="DR-viewport_event.h" />
+		<Unit filename="core/color.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="core/color.h" />
+		<Unit filename="core/gui-kit.h" />
+		<Unit filename="core/gui-kit/gui-tools.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="core/gui-kit/gui-tools.h" />
+		<Unit filename="core/gui-kit/scrollvaluebox.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="core/gui-kit/scrollvaluebox.h" />
+		<Unit filename="core/gui-kit/selectoption.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="core/gui-kit/selectoption.h" />
+		<Unit filename="core/sys.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="core/sys.h" />
+		<Unit filename="file/drawable.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="file/drawable.h" />
+		<Unit filename="file/file.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="file/file.h" />
+		<Unit filename="file/layer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="file/layer.h" />
+		<Unit filename="file/selection.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="file/selection.h" />
+		<Unit filename="file/selectionTasks.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="file/selectionTasks.h" />
+		<Unit filename="file/selectionTools.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="file/selectionTools.h" />
+		<Unit filename="icon.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mainViewport.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mainViewport.h" />
+		<Unit filename="menubar/menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menubar/menu.h" />
+		<Unit filename="menubar/menuevent.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menubar/menuevent.h" />
+		<Unit filename="menubar/submenu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menubar/submenu.h" />
+		<Unit filename="mzsdl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mzsdl.h" />
+		<Unit filename="navigator/color-picker.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="navigator/color-picker.h" />
+		<Unit filename="navigator/color-wheel-event.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="navigator/color-wheel-event.h" />
+		<Unit filename="navigator/color-wheel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="navigator/color-wheel.h" />
+		<Unit filename="navigator/layer-list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="navigator/layer-list.h" />
+		<Unit filename="navigator/layers-dock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="navigator/layers-dock.h" />
+		<Unit filename="navigator/navigator-event.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="navigator/navigator-event.h" />
+		<Unit filename="navigator/navigator.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="navigator/navigator.h" />
+		<Unit filename="navigator/tool-layer-option.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="navigator/tool-layer-option.h" />
+		<Unit filename="tools/brush.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tools/brush.h" />
+		<Unit filename="tools/hand.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tools/hand.h" />
+		<Unit filename="tools/line-plot.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tools/line-plot.h" />
+		<Unit filename="tools/line.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tools/line.h" />
+		<Unit filename="tools/rectSelect.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tools/rectSelect.h" />
+		<Unit filename="tools/toolOption.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tools/toolOption.h" />
+		<Unit filename="tools/toolbar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tools/toolbar.h" />
+		<Unit filename="tools/tools.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tools/tools.h" />
+		<Unit filename="tools/zoom.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tools/zoom.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
